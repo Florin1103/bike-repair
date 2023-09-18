@@ -1,3 +1,6 @@
+body {
+  background-color: #FC5E55 
+}
 .container {
   width: 1024px;
   min-height: 300px;
@@ -5,8 +8,8 @@
   margin-right: auto;
 }
 header {
-  background-color: rgb(41, 96, 36);
-  min-height: 100px;
+  padding-top: 15px;
+  padding-right: 15px;
 }
 main {
   min-height: 300px;
@@ -39,4 +42,18 @@ main {
 }
 .herobox2 {
   flex: 1;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  flex: 1;
+}
+.nav {
+  justify-content: flex-end;
+}
+.nav a, a:visited{
+  text-decoration: none;
+  color: black;
 }
