@@ -1,5 +1,10 @@
+html {
+  height: 100%;
+}
 body {
-  background-color: #FC5E55 
+ background-image: linear-gradient(#FC5E55 , #FA4083);
+ font-family: 'Roboto', sans-serif;
+  color: white;
 }
 .container {
   width: 1024px;
@@ -8,8 +13,11 @@ body {
   margin-right: auto;
 }
 header {
-  padding-top: 15px;
-  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 main {
   min-height: 300px;
@@ -17,23 +25,19 @@ main {
   align-items: center;
 }
 .cards {
-  background-color: rgb(47, 198, 33);
   min-height: 300px;
   display: flex;
   justify-content: space-between;
 }
 .card1 {
-  background-color:rgb(227, 58, 137) ;
   min-height: 300px;
   width: 30%;
 }
 .card2 {
-  background-color:rgb(174, 30, 97) ;
   min-height: 300px;
   width: 30%;
 }
 .card3 {
-  background-color:rgb(82, 9, 43) ;
   min-height: 300px;
   width: 30%;
 }
@@ -43,17 +47,7 @@ main {
 .herobox2 {
   flex: 1;
 }
-.navbar {
-  display: flex;
-  align-items: center;
-}
-.logo {
-  flex: 1;
-}
-.nav {
-  justify-content: flex-end;
-}
-.nav a, a:visited{
-  text-decoration: none;
-  color: black;
+h1 {
+  font-size: 80px; 
+  font-family: 'Playfair Display', serif;
 }
